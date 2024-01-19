@@ -11,95 +11,105 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark">
-        <div class="container-fluid">
-            <img src="img/fast-food.png" width="70" height="70">
-            &nbsp;
-            &nbsp;
-            &nbsp;
-          
-          <a class="navbar-brand text-white" href="#"><h1><span class="text-danger">F</span>RESHH <span class="text-danger">K</span>ITCHEN</h1></a>
-          
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
-                <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
-              </li>
-              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
-                <a class="nav-link active text-white" aria-current="page" href="menu.html">MENU</a>
-              </li>  
-              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
-                <a class="nav-link active text-white" aria-current="page" href="#">DEALS</a>
-              </li> 
-              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
-                <a class="nav-link active text-white" aria-current="page" href="aboutus.html">ABOUT US</a>
-              </li> 
-              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
-                <a class="nav-link active text-white" aria-current="page" href="#">REVIEW</a>
-              </li> 
-            </ul>
-            <button type="button" class="btn btn-primary menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center" data-bs-toggle="modal" data-bs-target="#login"><i class="bi bi-person-circle"></i>
-               Sign Up <i class="bi bi-arrow-right-circle"></i>
-              </button>
-          
-              <div class="modal fade" id="login">
-                  <div class="modal-dialog">
-                      <div class="modal-content">
-                          <div class="modal-header bg-danger">
-                              <h1 class="modal-title fs-5 text-white">Sign In/ Sign up</h1>
-                              &nbsp;
-                              &nbsp;
-                              <img src="img/fast-food.png" height="50" width="50">
-                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          
-                            <div class="modal-body">
-                              <form>
-                                <div class="mb-3">
-                                  <label class="form-label"><i class="bi bi-person-lines-fill"></i>Username</label>
-                                  <input type="text" class="form-control">  
-                                </div>
-                                  <div class="mb-3">
-                                    <label class="form-label"><i class="bi bi-lock-fill"></i></i> Password</label>
-                                    <input type="password" class="form-control">
-                                  </div>
-                                  <div class="mb-3">
-                                    <label class="form-label"><i class="bi bi-envelope-fill"></i> Email</label>
-                                    <input type="text" class="form-control">
-                                  </div>
-                                </form>
-                                <div class="modal-footer rounded-pill justify-content-center">
-                                  <button type="button" class="btn btn-danger">login</button>
-                              </div>
-                                <div class="mb-3">
-                                  <label class="form-label"><strong>LET'S SIGN IN OR USE YOUR PHONE NUMBER !</strong></label>
-                                  <input type="number" class="form-control">
-                                </div>
-                            </div>
-                          <div class="modal-footer bg-light rounded-pill justify-content-center">
-                              <button type="button" class="btn btn-dark">Send Me code</button>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          
-          </div>
+  <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="container-fluid">
+        <img src="img/fast-food.png" width="70" height="70">
+        &nbsp;
+        &nbsp;
+        &nbsp;
+      
+      <a class="navbar-brand text-white" href="#"><h1><span class="text-danger">F</span>RESHH <span class="text-danger">K</span>ITCHEN</h1></a>
+
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h1 class="offcanvas-title" id="offcanvasNavbarLabel"><i class="bi bi-person-circle"></i></h1>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-      </nav>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                  <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                  <a class="nav-link active text-white" aria-current="page" href="menu.html">MENU</a>
+                </li>  
+                <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                  <a class="nav-link active text-white" aria-current="page" href="#">DEALS</a>
+                </li> 
+                <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                  <a class="nav-link active text-white" aria-current="page" href="aboutus.html">ABOUT US</a>
+                </li> 
+                <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                  <a class="nav-link active text-white" aria-current="page" href="#">REVIEW</a>
+                </li> 
+              </ul>
+              <button type="button" class="btn btn-primary menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center" data-bs-toggle="modal" data-bs-target="#login"><i class="bi bi-person-circle"></i>
+                 Sign Up <i class="bi bi-arrow-right-circle"></i>
+                </button>
+            
+                <div class="modal fade" id="login">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header bg-danger">
+                                <h1 class="modal-title fs-5 text-white">Sign In/ Sign up</h1>
+                                &nbsp;
+                                &nbsp;
+                                <img src="img/fast-food.png" height="50" width="50">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            
+                              <div class="modal-body">
+                                <form>
+                                  <div class="mb-3">
+                                    <label class="form-label"><i class="bi bi-person-lines-fill"></i>Username</label>
+                                    <input type="text" class="form-control">  
+                                  </div>
+                                    <div class="mb-3">
+                                      <label class="form-label"><i class="bi bi-lock-fill"></i></i> Password</label>
+                                      <input type="password" class="form-control">
+                                    </div>
+                                    <div class="mb-3">
+                                      <label class="form-label"><i class="bi bi-envelope-fill"></i> Email</label>
+                                      <input type="text" class="form-control">
+                                    </div>
+                                  </form>
+                                  <div class="modal-footer rounded-pill justify-content-center">
+                                    <button type="button" class="btn btn-danger">login</button>
+                                </div>
+                                  <div class="mb-3">
+                                    <label class="form-label"><strong>LET'S SIGN IN OR USE YOUR PHONE NUMBER !</strong></label>
+                                    <input type="number" class="form-control">
+                                  </div>
+                              </div>
+                            <div class="modal-footer bg-light rounded-pill justify-content-center">
+                                <button type="button" class="btn btn-dark">Send Me code</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+
+
+
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+
+
+
+
+
+
       <hr>
       <div class="container">
       <div id="carouselExampleCaptions" class="carousel slide">

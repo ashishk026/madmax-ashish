@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <img src="img/fast-food.png" width="70" height="70">
+            &nbsp;
+            &nbsp;
+            &nbsp;
+          
+          <a class="navbar-brand text-white" href="#"><h1><span class="text-danger">F</span>RESHH <span class="text-danger">K</span>ITCHEN</h1></a>
+          
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                <a class="nav-link active text-white" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                <a class="nav-link active text-white" aria-current="page" href="menu.html">MENU</a>
+              </li>  
+              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                <a class="nav-link active text-white" aria-current="page" href="#">DEALS</a>
+              </li> 
+              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                <a class="nav-link active text-white" aria-current="page" href="aboutus.html">ABOUT US</a>
+              </li> 
+              <li class="nav-item menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center">
+                <a class="nav-link active text-white" aria-current="page" href="#">REVIEW</a>
+              </li> 
+            </ul>
+            <button type="button" class="btn btn-primary menu_item rounded-pill shadow-lg ps-2 pe-2 m-2 text-center" data-bs-toggle="modal" data-bs-target="#login"><i class="bi bi-person-circle"></i>
+               Sign Up <i class="bi bi-arrow-right-circle"></i>
+              </button>
+          
+              <div class="modal fade" id="login">
+                  <div class="modal-dialog">
+                      <div class="modal-content">
+                          <div class="modal-header bg-danger">
+                              <h1 class="modal-title fs-5 text-white">Sign In/ Sign up</h1>
+                              &nbsp;
+                              &nbsp;
+                              <img src="img/fast-food.png" height="50" width="50">
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          
+                            <div class="modal-body">
+                              <form>
+                                <div class="mb-3">
+                                  <label class="form-label"><i class="bi bi-person-lines-fill"></i>Username</label>
+                                  <input type="text" class="form-control">  
+                                </div>
+                                  <div class="mb-3">
+                                    <label class="form-label"><i class="bi bi-lock-fill"></i></i> Password</label>
+                                    <input type="password" class="form-control">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label class="form-label"><i class="bi bi-envelope-fill"></i> Email</label>
+                                    <input type="text" class="form-control">
+                                  </div>
+                                </form>
+                                <div class="modal-footer rounded-pill justify-content-center">
+                                  <button type="button" class="btn btn-danger">login</button>
+                              </div>
+                                <div class="mb-3">
+                                  <label class="form-label"><strong>LET'S SIGN IN OR USE YOUR PHONE NUMBER !</strong></label>
+                                  <input type="number" class="form-control">
+                                </div>
+                            </div>
+                          <div class="modal-footer bg-light rounded-pill justify-content-center">
+                              <button type="button" class="btn btn-dark">Send Me code</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          
+          </div>
+        </div>
+      </nav>
+      <hr>
+      <div class="container">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/fries.jpg" class="w-100 darken-image" height="375">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>The <span class="text-warning">Food</span> Hub</h1>
+                <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
+              
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/kfc.jpg" class="w-100 darken-image" height="375">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/burger1.jpg" class="w-100 darken-image" height="375">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Another example headline.</h1>
+              <p>.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 bg-white text-center">
+            <img src="img/fried-chicken.png" height="300" width="300">
+        </div>
+        <div class="col-sm-8 bg-white text-start"><h1>Shubham <span class="text-danger">Freshh</span> Kitchen </h1> <p>shubham freshh kitchen core product offering is pressure fried on-the-bone chicken pieces seasoned with Colonel Harland Sanders' "Original Recipe" of 11 herbs and spices.[57] The product is typically available in either two- or three-piece individual servings or in a family size cardboard bucket typically holding between six and 16 chicken pieces</p>
+          <button class="btn btn-danger">Order Now !</button>
+         
+        </div>
+  </div>  
+
+
+      </div>
+      <div class="container bg-danger">
+        <div class="row mt-5">
+      <div class="col-sm-3">
+      <div class="card p-2">
+        <img src="img/a1.jpg" height="250" width="250" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title"><span class="text-danger">VIEW OFFERS</span></h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" class="btn btn-info btn-outline-secondary"> <i class="bi bi-cart3"></i>$900 ₹</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card p-2">
+        <img src="img/a2.jpg" height="250" width="250" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title"><span class="text-danger">HOT & CRISPY</span></h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" class="btn btn-info btn-outline-secondary"> <i class="bi bi-cart3"></i>$1200 ₹</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card p-2">
+        <img src="img/a3.jpg" height="250" width="250" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title"><span class="text-danger">FREE 1PC</span></h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" class="btn btn-info btn-outline-secondary"> <i class="bi bi-cart3"></i>$1000 ₹</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3">
+      <div class="card p-2">
+        <img src="img/a5.jpg" height="250" width="250" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-title"><span class="text-danger">FREE FRIES</span></h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <button type="button" class="btn btn-info btn-outline-secondary"> <i class="bi bi-cart3"></i>$800 ₹</button>
+        </div>
+      </div>
+    </div>
+</div>
+    </div>
+     
+      <div class="container mt-0 bg-dark" id="hanging-icons">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="col-sm-4 d-flex align-items-start">
+           <div>
+            <img src="img/photo_2024-01-05_17-19-09.jpg" height="300" width="300">
+           </div>
+           </div>
+           &nbsp;
+           &nbsp;
+           &nbsp; &nbsp;
+           &nbsp;
+           &nbsp;
+           &nbsp;
+           &nbsp;
+           &nbsp;
+              <div class="col-sm-8 d-flex align-items-start">
+                <div>
+              <h3 class="fs-2 text-body-emphasis"><span class="text-white"> ABOUT</span> <span class="text-primary">KITCHEN</span></h3>
+              <p><span class="text-white">! We are delighted to have you as our guest and are committed to providing you with a comfortable and memorable stay. As a first-time guest, we want to ensure that you have a seamless and enjoyable experience with us.</span></p>
+              <a href="https://www.instagram.com/sencer_____08_____?igsh=MzRlODBiNWFlZA==" class="btn btn-danger"> <i class="bi bi-instagram"></i> Instagram
+              </a>
+              &nbsp;
+              <a href="#" class="btn btn-success">
+                <i class="bi bi-whatsapp"></i>
+              WatsApp
+              </a>
+              &nbsp;
+              <a href="https://x.com/ashish40423699/status/1694329180375425338?s=52" class="btn btn-primary">
+            <i class="bi bi-twitter"></i> Twitter
+              </a>
+            
+            </div>
+          </div>
+
+      </div>
+    </div>
+
+</body>
+</html>
